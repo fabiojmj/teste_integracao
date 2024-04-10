@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{2248C9C6-BFF5-4453-B0CF-FB641B7A20B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3A630636-E3F3-42ED-B318-675E9EFD09FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculosGeometricos", "CalculosGeometricos\CalculosGeometricos.csproj", "{DE0426F0-C6F8-4B11-9A80-56A76136E8BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculosGeometricos.Test", "CalculosGeometricos.Test\CalculosGeometricos.Test.csproj", "{9C44B8B6-5F95-4BEF-A16C-843B5CA72517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0426F0-C6F8-4B11-9A80-56A76136E8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0426F0-C6F8-4B11-9A80-56A76136E8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0426F0-C6F8-4B11-9A80-56A76136E8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0426F0-C6F8-4B11-9A80-56A76136E8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C44B8B6-5F95-4BEF-A16C-843B5CA72517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C44B8B6-5F95-4BEF-A16C-843B5CA72517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C44B8B6-5F95-4BEF-A16C-843B5CA72517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C44B8B6-5F95-4BEF-A16C-843B5CA72517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE0426F0-C6F8-4B11-9A80-56A76136E8BF} = {2248C9C6-BFF5-4453-B0CF-FB641B7A20B6}
+		{9C44B8B6-5F95-4BEF-A16C-843B5CA72517} = {3A630636-E3F3-42ED-B318-675E9EFD09FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {388F8041-5545-470C-87CE-EB77D7C42BF8}
+	EndGlobalSection
+EndGlobal
