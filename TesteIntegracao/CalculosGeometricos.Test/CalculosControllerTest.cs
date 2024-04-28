@@ -30,6 +30,7 @@ namespace CalculosGeometricos.Test
             var resultado = response.Content.ReadAsStringAsync().Result;
 
             response.StatusCode.Should().Be(HttpStatusCode.OK);
+            resultado.Should().Be("4");
         }
 
         [Fact]
@@ -56,6 +57,7 @@ namespace CalculosGeometricos.Test
             var resultado = response.Content.ReadAsStringAsync().Result;
 
             response.StatusCode.Should().Be(HttpStatusCode.OK);
+            resultado.Should().Be("3");
         }
 
         [Fact]
@@ -84,6 +86,7 @@ namespace CalculosGeometricos.Test
             var resultado = response.Content.ReadAsStringAsync().Result;
 
             response.StatusCode.Should().Be(HttpStatusCode.OK);
+            resultado.Should().Be("4");
         }
     }
 }
